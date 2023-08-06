@@ -83,7 +83,7 @@ section .animate {
 }
 
 .sec-2 .animate {
-    transform: translateX(50%);
+    transform: translateX(-100%);
 }
 
 .sec-2.show-animate .animate {
@@ -99,7 +99,7 @@ section .animate {
 }
 
 .sec-4 .animate {
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 
 .sec-4.show-animate .animate {
@@ -655,6 +655,8 @@ p {
 
     }
 
+
+
     ul.active {
         left: 0;
 
@@ -673,11 +675,53 @@ p {
     }
 
     .card-img{
-        max-height:150px;
-        max-width: 150px;
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
+    .sec-1 .animate {
+        transform: translateX(-100%);
+    }
+    
+    .sec-1.show-animate .animate {
+        transform: translateX(0);
+    }
+    
+    .sec-2 .animate {
+        transform: translateX(-100%);
+    }
+    
+    .sec-2.show-animate .animate {
+        transform: translateX(10);
+    }
+    
+    .sec-3 .animate {
+        transform: scale(0.7);
+    }
+    
+    .sec-3.show-animate .animate {
+        transform: scale(0.9);
+        padding-left: 10%;
+    }
+    
+    .sec-4 .animate {
+        transform: translateX(-100%);
+    }
+    
+    .sec-4.show-animate .animate {
+        transform: translateX(0);
+    }
+    .Types .images img {
+
+        max-width: 90%;
+        padding-right: 10%;
+    }
+    section {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
 }
 
 /* Keyframes for the fade-in animation */
