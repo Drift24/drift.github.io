@@ -293,7 +293,7 @@ nav ul li a:link {
 
 .banner1::before {
     content: "";
-    background: url(../ica2/Images/banner.jpg) no-repeat;
+    background: url(Images/banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -456,7 +456,7 @@ p {
 
 .banner2::before {
     content: "";
-    background: url(../ica2/Images/banner2.jpg) no-repeat;
+    background: url(Images/banner2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -489,7 +489,7 @@ p {
 
 .banner3::before {
     content: "";
-    background: url(../ica2/Images/banner3.jpg) no-repeat;
+    background: url(Images/banner3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -522,7 +522,7 @@ p {
 
 .banner4::before {
     content: "";
-    background: url(../ica2/Images/banner4.jpg) no-repeat;
+    background: url(Images/banner4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
